@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup, Command
+from setuptools import setup, Command
 
 class PyTest(Command):
   user_options = []
